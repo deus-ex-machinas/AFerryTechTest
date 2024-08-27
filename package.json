@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "scripts": {
     "build": "tsup",
-    "start:server": "node external",
+    "start:server": "node external-service",
     "invoke": "node app",
     "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "10.17.27",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "4.14.0",
     "@typescript-eslint/parser": "4.14.0",
     "@vitest/coverage-istanbul": "0.34.3",
@@ -22,6 +23,7 @@
     "ts-node": "10.9.1",
     "tsup": "6.7.0",
     "typescript": "4.8.4",
+    "uuid": "^10.0.0",
     "vitest": "0.34.3",
     "vitest-mock-extended": "1.1.3"
   },
